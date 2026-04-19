@@ -1,11 +1,11 @@
 public class SubstringHi {
-    public static void main{
+    public static void main(String[] args){
 
-        System.out.println();
+        System.out.println(hiAppears("abc hi ho"));
 
     }
 
-    public static String hiAppears (String str){
+    public static String hiAppears(String str){
         int count = 0;
 
         for(int i = 0; i < str.length(); i++){
