@@ -2,7 +2,7 @@ public class FirstAndLast {
     public static void main(String[] args){
 
         System.out.println(firstAndLast("breadjambread"));
-        System.out.println(firstAndLast);
+        System.out.println(firstAndLast("xxbreadjambreadyy"));
     }
     public static String firstAndLast (String str){
 
