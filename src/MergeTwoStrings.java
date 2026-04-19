@@ -12,8 +12,8 @@ public class MergeTwoStrings {
             result += str1.charAt(i) + str2.length(i);
             i++;
         }
-        result += str1.substring(i) +
-
+        result += str1.substring(i) + str2.substring(i);
+        return result;
 
 
     }
