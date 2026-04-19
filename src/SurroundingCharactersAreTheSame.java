@@ -2,7 +2,7 @@ public class SurroundingCharactersAreTheSame {
     public static void main(String[] args){
 
         System.out.println(surroundingChar("xy*yzz"));
-        System.out.println();
+        System.out.println(surroundingChar("xy*zzz"));
     }
     public static boolean surroundingChar(String str){
 
