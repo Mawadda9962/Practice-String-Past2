@@ -3,7 +3,6 @@ public class NCharacters {
 
         System.out.println(repeatEnd("Hello", 3));
         System.out.println(repeatEnd("Hello", 2));
-        System.out.println();
     }
     public static String repeatEnd(String str, int n){
 
