@@ -5,7 +5,7 @@ public class SubstringHi {
 
     }
 
-    public static String hiAppears(String str){
+    public static int hiAppears(String str){
         int count = 0;
 
         for(int i = 0; i < str.length() -1; i++){
