@@ -1,5 +1,6 @@
 public class CountPatterns {
     public static void main(String[] args){
+        System.out.println(countPatterns("aaacodebbb"));
 
 
     }
