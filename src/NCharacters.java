@@ -1,6 +1,7 @@
 public class NCharacters {
     public static void main(String[] args){
 
+        System.out.println(repeatEnd("Hello", 3));
     }
     public static String repeatEnd(String str, int n){
 
