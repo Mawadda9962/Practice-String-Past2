@@ -7,14 +7,12 @@ public class XyBalanced {
 
     public static boolean xyBalanced(String str) {
         for (int i = 0; i < str.length(); i++) {
-            if (str.substring(i).equals("x")) {
+            if (str.charAt(i) == 'x' && str.charAt(i + 1) == 'y') {
+
+                return true;
+            }
 
             }
-                if (str.substring(str.length()).equals("y")) {
-                    return true;
-                }
-            }
-            return false;
-
-        }
+        return false;
     }
+}
