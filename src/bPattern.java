@@ -2,7 +2,7 @@ public class bPattern {
     public static void main(String[] args){
 
         System.out.println(BPattern("abcbob"));
-        System.out.println(BPattern());
+        System.out.println(BPattern("b9b"));
     }
     public static boolean BPattern (String str){
 
