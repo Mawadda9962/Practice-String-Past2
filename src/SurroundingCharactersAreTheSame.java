@@ -6,6 +6,12 @@ public class SurroundingCharactersAreTheSame {
     public static boolean surroundingChar(String str){
 
 
+        for(int i = 0; i < str.length(); i++){
+            if
+        }
+
+
+
     }
 
 }
