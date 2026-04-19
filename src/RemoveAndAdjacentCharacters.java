@@ -1,9 +1,8 @@
-import java.beans.PropertyEditorSupport;
 
 public class RemoveAndAdjacentCharacters {
     public static void main (String[] args){
 
-        System.out.println();
+        System.out.println(removeChar("ab*cd"));
     }
     public static String removeChar (String str){
 
@@ -14,6 +13,7 @@ public class RemoveAndAdjacentCharacters {
                 continue;
 
             }
+            result += str.charAt(i);
         }
         return result;
 
