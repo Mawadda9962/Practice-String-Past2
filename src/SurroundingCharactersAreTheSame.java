@@ -1,6 +1,7 @@
 public class SurroundingCharactersAreTheSame {
     public static void main(String[] args){
 
+        System.out.println(surroundingChar("xy*yzz"));
 
     }
     public static boolean surroundingChar(String str){
