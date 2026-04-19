@@ -2,6 +2,7 @@ public class bPattern {
     public static void main(String[] args){
 
         System.out.println(BPattern("abcbob"));
+        System.out.println(BPattern());
     }
     public static boolean BPattern (String str){
 
