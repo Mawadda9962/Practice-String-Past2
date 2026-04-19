@@ -3,6 +3,7 @@ import java.beans.PropertyEditorSupport;
 public class RemoveAndAdjacentCharacters {
     public static void main (String[] args){
 
+        System.out.println();
     }
     public static String removeChar (String str){
 
