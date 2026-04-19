@@ -11,7 +11,7 @@ public class EndOftheOther {
         if (str1.length() >= str2.length()){
             return str1.endsWith(str2);
         }else {
-            return str2.endsWith(st)
+            return str2.endsWith(str1);
         }
 
     }
