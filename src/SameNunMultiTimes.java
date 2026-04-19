@@ -20,6 +20,6 @@ public class SameNunMultiTimes {
 
             }
         }
-        return contOfCat ==
+        return contOfCat == coutnOfDog
     }
 }
