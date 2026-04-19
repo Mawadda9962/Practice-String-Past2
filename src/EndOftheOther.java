@@ -1,7 +1,7 @@
 public class EndOftheOther {
     public static void main(String[] args){
 
-        System.out.println(endOfTheOther());
+        System.out.println(endOfTheOther("Hiabc", "abc"));
     }
     public static boolean endOfTheOther (String str1 ,String str2){
 
