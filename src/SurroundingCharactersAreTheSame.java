@@ -7,10 +7,15 @@ public class SurroundingCharactersAreTheSame {
 
 
         for(int i = 0; i < str.length(); i++){
-            if
+            if (str.charAt(i) == "*"){
+                if (str.charAt(i - 1) == str.charAt(i + 1)){
+                    return true;
+                }
+            }
         }
 
 
+        return false;
 
     }
 
