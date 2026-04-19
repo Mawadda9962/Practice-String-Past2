@@ -2,7 +2,6 @@ public class ReturnChar {
     public static void main(String[] args){
 
         System.out.println(returnBeforeAndAfter("abcXY123XYijk", "XY"));
-        System.out.println(returnBeforeAndAfter("XY1XY", "XY"));
 
     }
 
