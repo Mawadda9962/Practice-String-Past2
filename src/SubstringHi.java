@@ -1,11 +1,18 @@
 public class SubstringHi {
     public static void main{
 
+        System.out.println();
+
     }
 
     public static String hiAppears (String str){
         int count = 0;
 
-        for(int i = 0; i <)
+        for(int i = 0; i < str.length(); i++){
+            if (str.length(i) == "hi"){
+                count ++;
+            }
+        }
+        return count;
     }
 }
