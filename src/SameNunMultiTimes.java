@@ -13,6 +13,7 @@ public class SameNunMultiTimes {
         int contOfCat = 0;
         int coutnOfDog = 0;
         for (int i = 0; i < str.length() -2; i++ ){
+
             if (str.substring(i, i + 3).equals("Cat")){
 
             }
