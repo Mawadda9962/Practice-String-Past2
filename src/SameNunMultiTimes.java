@@ -10,6 +10,8 @@ public class SameNunMultiTimes {
     }
     public static Boolean sameNum (String str){
 
+        int contOfCat = 0;
+        int coutnOfDog = 0;
         for (int i = 0; i < str.length() -2; i++ ){
             if (str.substring(i, i + 3).equals("Cat")){
 
@@ -18,6 +20,6 @@ public class SameNunMultiTimes {
 
             }
         }
-        return
+        return contOfCat ==
     }
 }
