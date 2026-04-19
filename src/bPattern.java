@@ -1,7 +1,7 @@
 public class bPattern {
     public static void main(String[] args){
 
-        System.out.println(BPattern());
+        System.out.println(BPattern("abcbob"));
     }
     public static boolean BPattern (String str){
 
