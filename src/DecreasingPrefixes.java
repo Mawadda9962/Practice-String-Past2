@@ -6,7 +6,10 @@ public class DecreasingPrefixes {
 
         String result = "";
 
-        for(int i = 0; i)
+        for(int i = n; i > 0; i--){
+            result += str.substring(0, i);
+        }
 
+        return result;
     }
 }
