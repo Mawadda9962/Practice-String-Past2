@@ -1,6 +1,7 @@
 public class DecreasingPrefixes {
     public static void main(String[] args){
 
+        System.out.println(decreasingPrefixes());
     }
     public static String decreasingPrefixes (String str, int n){
 
