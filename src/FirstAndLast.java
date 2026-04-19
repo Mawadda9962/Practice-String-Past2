@@ -3,13 +3,18 @@ public class FirstAndLast {
 
         System.out.println(firstAndLast("breadjambread"));
         System.out.println(firstAndLast("xxbreadjambreadyy"));
+
     }
     public static String firstAndLast (String str){
 
         int first = str.indexOf("bread");
         int last = str.lastIndexOf("bread");
 
-        return str.substring(first + 5,last);
+
+        if (first == -1){
+            return "";
+        }
+        return str.substring(first + 5, last);
 
     }
 }
