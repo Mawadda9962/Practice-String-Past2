@@ -11,6 +11,6 @@ public class CharRepetedTwice {
         for(int i = 0; i < mass.length(); i++){
             result += mass.charAt(i);
         }
-        return result
+        return result;
     }
 }
