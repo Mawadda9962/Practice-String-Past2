@@ -8,7 +8,11 @@ public class EndOftheOther {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
 
-        if (str1.length() >= str)
+        if (str1.length() >= str2.length()){
+            return str1.endsWith(str2);
+        }else {
+            return str2.endsWith(st)
+        }
 
     }
 }
